@@ -1,0 +1,36 @@
+D:\Personal projects\MoviesApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Personal projects\MoviesApi\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Personal projects\MoviesApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Personal projects\MoviesApi\obj\Debug\netcoreapp3.1\MoviesApi.csprojAssemblyReference.cache
+D:\Personal projects\MoviesApi\obj\Debug\netcoreapp3.1\MoviesApi.AssemblyInfoInputs.cache
+D:\Personal projects\MoviesApi\obj\Debug\netcoreapp3.1\MoviesApi.AssemblyInfo.cs
+D:\Personal projects\MoviesApi\obj\Debug\netcoreapp3.1\MoviesApi.RazorTargetAssemblyInfo.cache
+D:\Personal projects\MoviesApi\obj\Debug\netcoreapp3.1\staticwebassets\MoviesApi.StaticWebAssets.Manifest.cache
+D:\Personal projects\MoviesApi\obj\Debug\netcoreapp3.1\staticwebassets\MoviesApi.StaticWebAssets.xml
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\appsettings.json
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\MoviesApi.exe
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\MoviesApi.deps.json
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\MoviesApi.runtimeconfig.json
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\MoviesApi.runtimeconfig.dev.json
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\MoviesApi.dll
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\MoviesApi.pdb
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\MoviesApi.AssemblyInfoInputs.cache
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\MoviesApi.AssemblyInfo.cs
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\MoviesApi.RazorTargetAssemblyInfo.cache
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\staticwebassets\MoviesApi.StaticWebAssets.Manifest.cache
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\staticwebassets\MoviesApi.StaticWebAssets.xml
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\MoviesApi.dll
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\MoviesApi.pdb
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\MoviesApi.genruntimeconfig.cache
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\Data\movies.json
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\MoviesApi.csprojAssemblyReference.cache
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\MoviesApi.csproj.CopyComplete
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MovieAssignment\BE\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\MoviesApi.csproj.CoreCompileInputs.cache
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\MoviesApi.MvcApplicationPartsAssemblyInfo.cs
+D:\MovieAssignment\BE\obj\Debug\netcoreapp3.1\MoviesApi.MvcApplicationPartsAssemblyInfo.cache

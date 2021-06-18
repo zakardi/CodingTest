@@ -1,0 +1,36 @@
+<div class="movie-info-container" *ngIf="movie">
+  <div class="movie-banner-cover">
+    <img [src]="movie.poster" alt="movie cover">
+  </div>
+  <div class="movie-detail-container">
+    <div class="movie-cover">
+      <img [src]="movie.poster" alt="movie poster">
+    </div>
+    <div class="movie-detail">
+      <h2>{{movie.title}}</h2>
+      <div class="short-info">
+        <div class="location"><span>Location: <strong>{{movie.location}}</strong></span></div>
+        <div class="rating"><span>Rating: <strong>{{movie.imdbRating}}</strong></span></div>
+      </div>
+      <div class="short-info">
+        SoundEffects:
+        <div class="soundEffect" *ngFor="let soundEffect of movie?.soundEffects"><span><strong>{{soundEffect}}</strong></span>
+        </div>
+      </div>
+      <div class="short-info">
+        Stills:
+        <div style="width: fit-content;" class="stiils" *ngFor="let still of movie?.stills">
+          <figure>
+            <img [src]="still" alt="movie poster" style="width: 100%;">
+          </figure>
+        </div>
+      </div>
+      <p class="desc">
+        {{movie.plot}}
+      </p>
+    </div>
+    <button style="height: 100%;" (click)="goToMainPage()">
+      <span>Back</span>
+   </button>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+<div class="search-bar">
+  <img src="assets/icons/search.svg" alt="search icon">
+  <input [(ngModel)]="searchText" name="searchText" type="search" placeholder="Search" aria-label="Search">
+</div>
+<div class="main-container">
+  <div *ngIf="movies" class="movies-container">
+    <div class="movies-list-header">
+      <span class="count">
+        Movies {{ visibleMovies?.length}}
+      </span>
+      <div class="sort">
+        Filter BY Location:
+        <select [(ngModel)]="location" (change)="filterBylocation()">
+          <option value="all">All</option>
+          <option value="pune">Pune</option>
+          <option value="Bangalore">Bangalore</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Delhi">Delhi</option>
+        </select>
+      </div>
+    </div>
+    <hr>
+    <div class="movies-list">
+      <div *ngFor="let movie of visibleMovies | filter: searchText" class="movie">
+        <a [routerLink]="['/movies/' + movie.id ]">
+          <figure>
+            <img [src]="movie.poster" alt="movie poster" style="width: 50%;">
+          </figure>
+          <div column=12>
+            <span column="4" class="title">{{movie.title}}</span>
+            <span column="4" class="title">{{movie.listingType}}</span>
+            <span class="title">{{movie.language}}</span>
+            <span class="title">{{movie.location}}</span>
+            <span class="rate">{{movie.imdbRating}}</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
