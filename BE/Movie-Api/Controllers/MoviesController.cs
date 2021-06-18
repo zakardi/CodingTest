@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using MoviesApi.Contract;
+using System;
+using System.Net;
 
 namespace MoviesApi.Controllers
 {
@@ -21,8 +23,16 @@ namespace MoviesApi.Controllers
         [HttpGet]
         public IActionResult GetMovies()
         {
-            var movies = _movieContract.GetMovies();
-            return Ok(movies);
+            try
+            {
+                var movies = _movieContract.GetMovies();
+                return Ok(movies);
+            }
+            catch (Exception exception)
+            {
+                _logger.LogError("Throwing error while fetching movies", exception);
+                return new StatusCodeResult((int)HttpStatusCode.InternalServerError);
+            }
         }
-    }
+}
 }
